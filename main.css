@@ -20,7 +20,7 @@
 .nav-bar ul li a{
     margin: 10px;
     font-size: 1.1em;
-    padding:5 10pxpx;
+    padding: auto;
     text-decoration: none;
     color: #000;
 }
@@ -47,6 +47,7 @@
     margin: 10px;
     margin-right: 240px;
     margin-bottom: 70px;
+    cursor: pointer;
 }
 .middle-container{
     position: relative;
@@ -118,6 +119,7 @@ input{
 }
 .outer-nav-bar li{
     font-size: 2em;
+   
 }
 .outer-nav-bar > *{
     background-color: #fff;
@@ -131,5 +133,7 @@ input{
 }
 .outer-nav-bar a:hover{
    color: #E30613;
-
+}
+.outer-nav-bar ul li a{
+    color: #E30613;
 }
