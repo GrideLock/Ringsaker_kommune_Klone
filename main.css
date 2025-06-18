@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -62,7 +63,7 @@
     z-index: 10;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     padding: 0 20px;
     
@@ -71,7 +72,6 @@
     list-style: none;
     display: flex;
     padding: auto;
-
     
 }
 .side-nav ul li a{
@@ -119,6 +119,7 @@ input{
 }
 .outer-nav-bar li{
     font-size: 2em;
+    font-family: 'Open-sans', sans-serif;
    
 }
 .outer-nav-bar > *{
@@ -128,7 +129,7 @@ input{
     gap: 5px;
 }
 .outer-nav-bar a{
-    color: #000;
+    color: #5F5F5F;
     text-decoration: none;
 }
 .outer-nav-bar a:hover{
